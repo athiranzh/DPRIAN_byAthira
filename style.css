@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Wix Madefor Text", sans-serif;
+    background-image: url(mito.png);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.profile img {
+    max-width: 150px;
+    width: 50%;
+    height: 50%;
+    border-radius: 20%;
+    border: 5px solid rgb(83, 133, 121);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile h1 {
+    margin-top: 5px;
+    font-size: 22px;
+    color: rgb(26, 63, 65);
+}
+
+.profile p {
+    font-size: 20px;
+    color: darkslategrey;
+}
+
+.link {
+    text-align: center;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.link a {
+    border: 2px solid rgb(35, 101, 104); 
+    padding: 5px 10px; 
+    margin: 5px 0; 
+    text-decoration: none; 
+    color: rgb(11, 55, 56); 
+    transition: border-color 0.3s ease; 
+}
+
+.link a:hover {
+    border-color: darkslategrey; /* change border color on hover */
+    color: darkslategrey; /* change text color on hover */
+}
